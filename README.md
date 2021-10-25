@@ -9,7 +9,7 @@ In this repo you will find the following files:
 
 1. `Census4val-640.sage `. This is a `sage` file which contains a (python) dictionary consisting of the sage versions of the graphs in the original Census. The keys of the dictionary are meant to match those from the original code so what is called `AT4val[21,1]` in the Magma version should be referenced as `AT4val[(21,1)]` in the python version.
 
-2. A colection of files with name `Census4val-AAA-BBB.sage`. Each of these files creates the dictionary `AT4val` (if it does not exists already) and imports the graphs of in between `AAA` and `BBB`.
+2. A colection of files with name `Census4val-AAA-BBB.sage`. Each of these files creates the dictionary `AT4val` (if it does not exists already) and imports the graphs of order in between `AAA` and `BBB`.
 
 3. A file named `Census4val-640_lists.py ` which creates the dictionary `AT4val_lists`
 and fills it with the lists of edges of the graphs in the census (whithout actually creating the Graphs). This is pure python (no sage) and can be used to build the graphs somewhere else.
