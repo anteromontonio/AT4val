@@ -18,7 +18,6 @@ and fills it with the lists of edges of the graphs in the census (whithout actua
 
   ```
   import pickle
-  infile = open(filename,'rb')
   AT4val = pickle.load(open('AT4val','rb'))
   ```
   You have to trust me on this.
